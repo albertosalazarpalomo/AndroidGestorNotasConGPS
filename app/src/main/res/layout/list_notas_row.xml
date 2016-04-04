@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="30dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="23dp"
+        android:tint="@color/colorPrimary"
+        android:src="@drawable/ic_action_speaker_notes" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:maxLines="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="@string/fila_listado_notas"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:maxLines="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignLeft="@+id/titulo"
+        android:textSize="18sp"
+        android:text="@string/fila_listado_notas_2" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#009688</color>
+    <color name="colorAccent">#009688</color>
+    <color name="black">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#f44336</color>
+
+    <color name="rojoSuave">#F44336</color>
+    <color name="rojoFuerte">#C62828</color>
+
+    <color name="grisSuave">#607D8B</color>
+    <color name="grisFuerte">#546E7A</color>
+
+    <color name="grisMuySuave">#F5F5F5</color>
+
+    <color name="azulSuave">#000000</color>
+    <color name="azulFuerte">#000000</color>
+</resources>

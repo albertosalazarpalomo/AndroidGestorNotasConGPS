@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notas"
+            android:icon="@drawable/ic_action_speaker_notes"
+            android:title="@string/drawer_notas" />
+    </group>
+
+    <item android:title="@string/drawer_apartado_nube">
+        <menu>
+            <item
+                android:id="@+id/nav_salvar_nube"
+                android:icon="@drawable/ic_file_cloud_upload"
+                android:title="@string/drawer_guardar_nube" />
+            <item
+                android:id="@+id/nav_restaurar_nube"
+                android:icon="@drawable/ic_file_cloud_download"
+                android:title="@string/drawer_recuperar_nube" />
+        </menu>
+    </item>
+</menu>

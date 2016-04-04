@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Gestor GeoNotas</string>
+
+    <string name="navigation_drawer_open">Abrir Menú</string>
+    <string name="navigation_drawer_close">Cerrar Menú</string>
+
+    <string name="action_settings">Configuraciones</string>
+
+    <!-- Títulos de Switchers -->
+    <string name="switch_list_notas">Modo Mapa</string>
+    <string name="switch_guardar_historico_geoloc">Guardar Posición Antigua En El Histórico</string>
+
+    <!-- Titulos de las Activities -->
+
+    <!-- De la opción "Notas" -->
+    <string name="title_activity_main">Listado De Notas</string>
+    <string name="title_activity_detalles_nota_crear">Creando Nota</string>
+    <string name="title_activity_detalles_nota_mostrar">Viendo Nota</string>
+    <string name="title_activity_detalles_nota_editar">Editando Nota</string>
+
+    <!-- Resto de títulos de activities -->
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_detalles">Detalles</string>
+    <string name="tab_foto">Foto</string>
+    <string name="tab_mapa">Mapa</string>
+    <string name="guardar">Guardar</string>
+    <string name="guardado_exito">¡Guardado con éxito!</string>
+    <string name="error_guardar">Error: problema al guardar</string>
+    <string name="error_campos_vacios">Error: ¡nombre y descripción deben estar rellenados!</string>
+    <string name="cuidado">Cuidado</string>
+    <string name="preguntar_si_borrar">¿Realmente quieres borrar este nota? Si lo haces, se borrará todo</string>
+    <string name="si">Sí</string>
+    <string name="nota_borrada_ok">Nota borrada con éxito</string>
+    <string name="error_borrar_nota">Error al intentar borrar la Nota</string>
+    <string name="no">No</string>
+    <string name="guardar_copia_nube">Guardar Copia De Seguridad En La Nube</string>
+    <string name="recuperar_copia_nube">Recuperar Copia De Seguridad De La Nube</string>
+    <string name="loguearse_sistema">Loguearse en el sistema</string>
+    <string name="error">Error</string>
+    <string name="error_indefinido">Error indefinido, inténtalo de nuevo.</string>
+    <string name="exito">Exito</string>
+    <string name="msg_exito">Exito al restaurar la copia.</string>
+    <string name="error_restaurar_copia">Error al intentar restaurar la copia.</string>
+    <string name="copia_salvada_ok">¡Copia salvada correctamente!</string>
+    <string name="try_again">Inténtalo de nuevo</string>
+    <string name="error_proceso">Ha ocurrido algún error en el proceso</string>
+    <string name="no_internet_access">No hay acceso a Internet.</string>
+    <string name="OK">OK</string>
+    <string name="antes_debes">Antes debes...</string>
+    <string name="pulsa_antes_guardar">Antes de añadir fotos, debes pulsar en \'GUARDAR\' una vez</string>
+    <string name="elige_origen_foto">Elige el origen de la foto</string>
+    <string name="elige_foto_o_galeria">¿Quieres obtener la foto de la galería, o de la cámara?</string>
+    <string name="galeria">Galería</string>
+    <string name="camara">Camara</string>
+    <string name="error_capturar_imagen">Error al capturar imagen</string>
+    <string name="cancelado">Cancelado</string>
+    <string name="gps_desactivado">¡El GPS está desactivado!</string>
+    <string name="realizando_operacion"><![CDATA[<b>Realizando la operación</b><br/>Espere un momento...]]></string>
+
+    <string name="boton_mapa">Mostra Mapa</string>
+    <string name="title_activity_mapa">Mapa</string>
+
+    <!-- Drawer, widget, etc... -->
+
+    <string name="widget_geonotas">Widget GeoNotas</string>
+    <string name="anade_notas">¡Añade notas en GeoNotas!</string>
+    <string name="anadir">Añadir</string>
+    <string name="ver_nota">Ver nota</string>
+    <string name="detalles">Detalles</string>
+    <string name="nombre">Nombre</string>
+    <string name="descripcion">Descripción</string>
+    <string name="cuidado_msg">Operaciones especiales (¡cuidado!)</string>
+    <string name="password_hint">Contraseña...</string>
+    <string name="enviar_hint">Enviar</string>
+    <string name="fila_listado_notas">Titulo</string>
+    <string name="fila_listado_notas_2">Description</string>
+    <string name="titulo_drawer">Gestor Notas Geolocalizadas</string>
+    <string name="email_drawer">alberto.sofo@gmail.com</string>
+    <string name="widget_texto_default">Cargando...</string>
+    <string name="widget_boton_default">Espere</string>
+    <string name="boton_editar_barra">Editar</string>
+    <string name="drawer_notas">Notas</string>
+    <string name="drawer_apartado_nube">Copias de Seguridad En La Nube</string>
+    <string name="drawer_guardar_nube">Guardar Copia</string>
+    <string name="drawer_recuperar_nube">Restaurar Copia</string>
+    <string name="titulo_gps_alerta">¡GPS desactivado!</string>
+    <string name="gps_activar_msg">Por favor, activa el GPS</string>
+    <string name="activar">Activar</string>
+    <string name="ignorar">Ignorar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

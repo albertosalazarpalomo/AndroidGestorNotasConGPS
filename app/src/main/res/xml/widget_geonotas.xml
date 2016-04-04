@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:initialLayout="@layout/widget_geonotas_layout"
+    android:updatePeriodMillis="30000"
+    android:minHeight="172dip"
+    android:minWidth="380dip"/>

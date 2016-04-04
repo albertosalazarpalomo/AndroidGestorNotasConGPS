@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grisMuySuave"
+    android:orientation="vertical">
+
+    <!-- Área de detalles (introducir título y descripción) -->
+
+    <TextView
+        android:id="@+id/tituloSeparador1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/detalles"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/nombreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/nombre" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true" />
+
+    <TextView
+        android:id="@+id/descripcionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/descripcion" />
+
+    <EditText
+        android:id="@+id/descripcion"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        />
+
+    <!-- Área de opciones delicadas (ej. borrar) -->
+
+    <TextView
+        android:id="@+id/tituloSeparador2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/cuidado_msg"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="25dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageButton
+        android:id="@+id/borrarBotom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/my_button"
+        android:src="@drawable/ic_action_delete"
+        android:clickable="true"
+        android:layout_gravity="right"/>
+
+</LinearLayout>
